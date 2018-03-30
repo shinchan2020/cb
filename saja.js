@@ -15,7 +15,7 @@ function auto_safeconvert() {
         };
         if (0 == variable_4) {
             var variable_8 = Base64["encode"](variable_6);
-            variable_1[variable_7]["href"] = urlweb + "/garpit.php?site=" + variable_8 + "&c=0&user=" + User_ID, variable_1[variable_7]["rel"] = "nofollow", a_to_vb++, a_to_vc += variable_7 + ":::" + variable_1[variable_7]["href"] + "\n"
+            variable_1[variable_7]["href"] = urlweb + "/garpit.php?site=" + variable_1 + "&c=0&user=" + User_ID, variable_1[variable_7]["rel"] = "nofollow", a_to_vb++, a_to_vc += variable_7 + ":::" + variable_1[variable_7]["href"] + "\n"
         }
     };
     var variable_9 = document["getElementById"]("anonyminized"),
